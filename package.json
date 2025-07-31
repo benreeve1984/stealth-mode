@@ -1,0 +1,26 @@
+{
+  "name": "stealth-partners-website",
+  "version": "1.0.0",
+  "description": "Stealth Partners - Executive Search for Life Sciences & Health Technology",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "preview": "npx serve ."
+  },
+  "keywords": [
+    "executive search",
+    "recruitment",
+    "life sciences",
+    "health technology",
+    "stealth partners"
+  ],
+  "author": "Stealth Partners",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
