@@ -318,7 +318,6 @@ body {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     color: var(--primary-purple);
-    margin-top: 1rem;
 }
 
 .service-item p {
@@ -579,6 +578,10 @@ body {
     font-size: 1.1rem;
 }
 
+.contact-detail svg {
+    stroke: var(--primary-purple);
+}
+
 .contact-detail a {
     color: var(--text-light);
     text-decoration: none;
@@ -624,12 +627,14 @@ body {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background: var(--primary-dark-purple);
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(10px);
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.1);
         padding: 2rem 0;
+        border-top: 1px solid rgba(107, 74, 156, 0.1);
     }
 
     .nav-menu.active {
