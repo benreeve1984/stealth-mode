@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+/* Reset and Base Styles - Updated 2024 */
 * {
     margin: 0;
     padding: 0;
@@ -621,6 +621,8 @@ body {
     font-size: 0.9rem;
     opacity: 0.8;
 }
+
+/* Version 2.0 - Updated with new branding */
 
 /* Mobile Responsive */
 @media (max-width: 768px) {

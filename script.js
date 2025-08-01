@@ -1,4 +1,4 @@
-// Mobile Menu Toggle
+// Mobile Menu Toggle - Version 2.0
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
 
