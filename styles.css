@@ -597,7 +597,7 @@ body {
 }
 
 .contact-detail svg {
-    stroke: var(--primary-purple);
+    stroke: var(--text-light);
 }
 
 .contact-detail a {
@@ -745,7 +745,7 @@ body {
     }
     
     .clients-logos {
-        padding: 1rem;
+        padding: 0.5rem;
         margin-top: 2rem;
     }
     
