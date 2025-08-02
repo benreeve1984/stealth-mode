@@ -57,6 +57,20 @@ body {
     gap: 10px;
 }
 
+.logo-img {
+    height: 50px;
+    max-width: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-logo-img {
+    height: 60px;
+    max-width: 240px;
+    width: auto;
+    object-fit: contain;
+}
+
 .logo-subtitle {
     font-size: 0.7rem;
     font-weight: 300;
@@ -710,5 +724,15 @@ body {
     .logo svg {
         width: 30px;
         height: 30px;
+    }
+    
+    .logo-img {
+        height: 40px;
+        max-width: 150px;
+    }
+    
+    .footer-logo-img {
+        height: 50px;
+        max-width: 180px;
     }
 }
