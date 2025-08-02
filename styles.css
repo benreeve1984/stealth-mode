@@ -585,6 +585,8 @@ body {
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .contact-detail {
@@ -740,5 +742,14 @@ body {
     .footer-logo-img {
         height: 75px;
         max-width: 270px;
+    }
+    
+    .clients-logos {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .clients-logos img {
+        max-width: 100%;
     }
 }
