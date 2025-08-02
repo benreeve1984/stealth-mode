@@ -727,12 +727,12 @@ body {
     }
     
     .logo-img {
-        height: 40px;
-        max-width: 150px;
+        height: 60px;
+        max-width: 225px;
     }
     
     .footer-logo-img {
-        height: 50px;
-        max-width: 180px;
+        height: 75px;
+        max-width: 270px;
     }
 }
